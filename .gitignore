@@ -1,0 +1,28 @@
+# Python files
+*.pyc
+__pycache__/
+
+# Briefcase build artifacts
+macos/
+windows/
+linux/
+ios/
+android/
+web/
+
+# Distribution info files
+*.dist-info/
+*.egg-info/
+
+# Virtual environment
+.venv/
+
+# PyCharm specific files
+.idea/
+# Добавляем эту строку, чтобы игнорировать папку .idea
+
+# macOS system files
+.DS_Store
+
+# Если main.py был удален, но все еще отслеживается Git, можно добавить его сюда
+# main.py
