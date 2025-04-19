@@ -17,7 +17,10 @@ class BookReader(toga.App):
         """
         main_box = toga.Box()
 
-        self.main_window = toga.MainWindow(title=self.formal_name)
+        library_title_label = toga.Label("Your Library")
+        main_box.add(library_title_label)
+
+        self.main_window = toga.MainWindow(title="Book Reader")
         self.main_window.content = main_box
         self.main_window.show()
 
